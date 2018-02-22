@@ -1,0 +1,4 @@
+alert("<%= @article.id%>");
+$(".show1").hide();
+$(".delete").hide();
+$("#article_<%= @article.id%>").prepend("<%= j render 'form' %>");
